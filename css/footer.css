@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+footer {
+    background-color: lightgray;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content : space-between;
+    color: black;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.divs {
+    margin: 5px auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    margin: 0 auto;
+}
+
+.divs {
+    flex-basis: 33.333333%;
+}
+#discord:hover{
+    fill: #7387FF;
+}
+#tiktok:hover {
+    fill: #7387FF;
+}

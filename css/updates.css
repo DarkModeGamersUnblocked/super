@@ -1,0 +1,19 @@
+body h3 {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 18px;
+  color: lightgray;
+  font-weight: lighter;
+}
+#update{
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 26px;
+  color: lightgray;
+}
+
+.updateinfo a {
+  text-decoration: none;
+  color: black;
+}
+

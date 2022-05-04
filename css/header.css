@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #222222;
+  margin:0;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+.header a {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: arial;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: 'Signika';
+}
+.header a:hover {
+  background-color: darkgray;
+}
+#extrememath {
+  margin: 0px;
+  margin-right:auto;
+  font-size: 40px;
+  font-family: Helvetica;
+  background-color: #f1f1f1;
+  color: black;
+  font-weight: bold;
+}
+
+

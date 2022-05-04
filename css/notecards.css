@@ -1,0 +1,35 @@
+.game {
+  width: 180px;
+  height: auto;
+  margin: 14px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.game:hover {
+  box-shadow: 0 0 15px #f5f5f5;
+}
+
+.gamecontent p {
+  margin: 0px;
+  font-family: arial;
+  color: lightgray;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+.gamecontent img {
+  height: 90%;
+  width: 100%;
+  border-radius: 20px;
+}
+#gamescontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  width: 100%;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+.game {
+  float: left;
+  margin: 2%;
+  text-decoration: none;
+  flex: 1 0 16%;
+  border-radius: 20px;
+}
+.game:hover {
+  box-shadow: 0 0 15px #f5f5f5;
+}
+.gamecontent p {
+  margin: 0px;
+  font-family: arial;
+  font-size: 22px;
+  color: lightgray;
+  font-weight: bold;
+  text-align: center;
+}
+.gamecontent img {
+  height: 90%;
+  width: 100%;
+  border-radius: 20px;
+}
+.populargames {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#extrememathh1, #top10 {
+  text-align: center;
+  color: lightgray;
+}
+#extrememathh1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 4vw;
+}
+#top10 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.7vw;
+}
+
+

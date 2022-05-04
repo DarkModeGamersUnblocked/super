@@ -1,0 +1,8 @@
+body {
+ text-align: center;
+}
+#appframe {
+  border: none;
+  height: 900px;
+  width: 80%;
+}
